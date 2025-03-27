@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "BP12cBj5+U0=",
+  "dgSpecHash": "FWBM45RAwGs=",
   "success": true,
   "projectFilePath": "C:\\Users\\john.schurervonwald\\source\\repos\\pizzeria_prg2\\pizzeria_prg2\\pizzeria_prg2.csproj",
   "expectedPackageFiles": [
@@ -119,9 +119,14 @@
     "C:\\Users\\john.schurervonwald\\.nuget\\packages\\microsoft.android.runtime.34.android-x86\\34.0.145\\microsoft.android.runtime.34.android-x86.34.0.145.nupkg.sha512",
     "C:\\Users\\john.schurervonwald\\.nuget\\packages\\microsoft.ios.ref.net8.0_18.0\\18.0.8316\\microsoft.ios.ref.net8.0_18.0.18.0.8316.nupkg.sha512",
     "C:\\Users\\john.schurervonwald\\.nuget\\packages\\microsoft.ios.runtime.iossimulator-x64.net8.0_18.0\\18.0.8316\\microsoft.ios.runtime.iossimulator-x64.net8.0_18.0.18.0.8316.nupkg.sha512",
+    "C:\\Users\\john.schurervonwald\\.nuget\\packages\\microsoft.maccatalyst.runtime.maccatalyst-arm64.net8.0_18.0\\18.0.8316\\microsoft.maccatalyst.runtime.maccatalyst-arm64.net8.0_18.0.18.0.8316.nupkg.sha512",
     "C:\\Users\\john.schurervonwald\\.nuget\\packages\\microsoft.maccatalyst.runtime.maccatalyst-x64.net8.0_18.0\\18.0.8316\\microsoft.maccatalyst.runtime.maccatalyst-x64.net8.0_18.0.18.0.8316.nupkg.sha512",
     "C:\\Users\\john.schurervonwald\\.nuget\\packages\\microsoft.maccatalyst.ref.net8.0_18.0\\18.0.8316\\microsoft.maccatalyst.ref.net8.0_18.0.18.0.8316.nupkg.sha512",
-    "C:\\Users\\john.schurervonwald\\.nuget\\packages\\microsoft.windows.sdk.net.ref\\10.0.19041.57\\microsoft.windows.sdk.net.ref.10.0.19041.57.nupkg.sha512"
+    "C:\\Users\\john.schurervonwald\\.nuget\\packages\\microsoft.netcore.app.crossgen2.win-x64\\8.0.13\\microsoft.netcore.app.crossgen2.win-x64.8.0.13.nupkg.sha512",
+    "C:\\Users\\john.schurervonwald\\.nuget\\packages\\microsoft.windows.sdk.net.ref\\10.0.19041.57\\microsoft.windows.sdk.net.ref.10.0.19041.57.nupkg.sha512",
+    "C:\\Users\\john.schurervonwald\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x64\\8.0.13\\microsoft.aspnetcore.app.runtime.win-x64.8.0.13.nupkg.sha512",
+    "C:\\Users\\john.schurervonwald\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x64\\8.0.13\\microsoft.windowsdesktop.app.runtime.win-x64.8.0.13.nupkg.sha512",
+    "C:\\Users\\john.schurervonwald\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x64\\8.0.13\\microsoft.netcore.app.runtime.win-x64.8.0.13.nupkg.sha512"
   ],
   "logs": []
 }

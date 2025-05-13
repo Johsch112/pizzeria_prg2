@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="pizzeria_prg2.View.Order"
+             Title="Order">
+
+    <ScrollView>
+        <VerticalStackLayout Spacing="20" Padding="10">
+
+            <Label x:Name="OrderIntro" FontSize="100"
+                   Text="Hungry? Order some pizzas!"
+                   VerticalOptions="Center" 
+                   HorizontalOptions="Center" />
+
+            <FlexLayout Wrap="Wrap" Direction="Row" HorizontalOptions="Center" >
+
+
+                <VerticalStackLayout Margin="8" >
+                    <Label Text="Margherita pizza" FontSize="15" FontAttributes="Bold" HorizontalTextAlignment="Center" />
+                <Image Source="cheesyipzza.jpg" HeightRequest="150" />
+                <Button Clicked="OrderMargherita" Text="Add to cart" WidthRequest="250"/>
+            </VerticalStackLayout>
+
+                <VerticalStackLayout Margin="8" >
+                    <Label Text="Pepperoni pizza" FontSize="15" FontAttributes="Bold" HorizontalTextAlignment="Center" />
+                <Image Source="tastypizza.jpg" HeightRequest="150" />
+                <Button Text="Add to cart" WidthRequest="250"/>
+            </VerticalStackLayout>
+
+                <VerticalStackLayout Margin="8" >
+                    <Label Text="Margherita pizza" FontSize="15" FontAttributes="Bold" HorizontalTextAlignment="Center" />
+                <Image Source="cheesyipzza.jpg" HeightRequest="150" />
+                <Button Text="Add to cart" WidthRequest="250"/>
+            </VerticalStackLayout>
+
+                <VerticalStackLayout Margin="8" >
+                    <Label Text="Pepperoni pizza" FontSize="15" FontAttributes="Bold" HorizontalTextAlignment="Center" />
+                <Image Source="cheesyipzza.jpg" HeightRequest="150" />
+                <Button Text="Add to cart" WidthRequest="250"/>
+            </VerticalStackLayout>
+            </FlexLayout>
+
+
+            <FlexLayout Wrap="Wrap" Direction="Row" HorizontalOptions="Center" >
+                <VerticalStackLayout Margin="8" >
+                    <Label Text="Cocka Cola" FontSize="15" FontAttributes="Bold" HorizontalTextAlignment="Center" />
+                    <Image Source="cola.png" HeightRequest="150" />
+                    <Button Text="Add to cart" WidthRequest="250"/>
+                </VerticalStackLayout>
+
+                <VerticalStackLayout Margin="8"  >
+                    <Label Text="Fanta" FontSize="15" FontAttributes="Bold" HorizontalTextAlignment="Center" />
+                    <Image Source="fanta.png" HeightRequest="150" />
+                    <Button Text="Add to cart" WidthRequest="250"/>
+                </VerticalStackLayout>
+            </FlexLayout>
+
+            <!---CART SECTION -->
+
+            <CollectionView ItemsSource="{Binding CartList}">
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <VerticalStackLayout Padding="10" Spacing="5">
+                            <Label Text="{Binding Title}" FontSize="18" FontAttributes="Bold" />
+                            <Label Text="{Binding Price, StringFormat='{}{0:C}'}"  />
+                            <Label x:Name="PizzaCount" Text="{Binding Quantity}" />
+                            
+                            <Label Text="{Binding Ingredients}" FontSize="18" FontAttributes="Bold" />
+                            <Button Clicked="RemoveMargherita" Text="remove from cart" />
+                        </VerticalStackLayout>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+
+
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

@@ -5,7 +5,4 @@ using System.Text;
 
 namespace pizzeria_prg2
 {
-    public class Pepperonipizza : Pizza
-    {
-    }
 }

@@ -1,15 +1,27 @@
-<?xml version="1.0" encoding="UTF-8" ?>
 <Shell
     x:Class="pizzeria_prg2.AppShell"
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-    xmlns:local="clr-namespace:pizzeria_prg2"
+    xmlns:view="clr-namespace:pizzeria_prg2.View" 
     Shell.FlyoutBehavior="Disabled"
     Title="pizzeria_prg2">
 
-    <ShellContent
-        Title="Home"
-        ContentTemplate="{DataTemplate local:MainPage}"
-        Route="MainPage" />
+    <TabBar>
+        <Tab Title="Home" Icon="home.png">
+            <ShellContent ContentTemplate="{DataTemplate view:MainPage}" Route="MainPage"/>
+        </Tab>
 
+        <Tab Title="Order" Icon="home.png">
+            <ShellContent ContentTemplate="{DataTemplate view:Order}" Route="MainPage"/>
+        </Tab>
+
+        <Tab Title="About us" Icon="home.png">
+            <ShellContent ContentTemplate="{DataTemplate view:About}" Route="MainPage"/>
+        </Tab>
+
+        <Tab Title="Menu" Icon="home.png">
+            <ShellContent ContentTemplate="{DataTemplate view:Menu}" Route="MainPage"/>
+        </Tab>
+
+    </TabBar>
 </Shell>

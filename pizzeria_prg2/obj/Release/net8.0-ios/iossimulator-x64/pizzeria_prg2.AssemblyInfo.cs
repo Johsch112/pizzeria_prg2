@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("pizzeria_prg2")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+eef35bb95c4e94678f3f9cda4435352c23dcc43a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+01f9106b91efe772a9bf35f27897adea0cf50f5e")]
 [assembly: System.Reflection.AssemblyProductAttribute("pizzeria_prg2")]
 [assembly: System.Reflection.AssemblyTitleAttribute("pizzeria_prg2")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

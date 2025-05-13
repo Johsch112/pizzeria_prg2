@@ -46,8 +46,26 @@ build_metadata.AdditionalFiles.ManifestResourceName = pizzeria_prg2.Resources.St
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
 
+[C:/Users/john.schurervonwald/source/repos/pizzeria_prg2/pizzeria_prg2/View/About.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = pizzeria_prg2.View.About.xaml
+build_metadata.AdditionalFiles.TargetPath = View\About.xaml
+build_metadata.AdditionalFiles.RelativePath = View\About.xaml
+
 [C:/Users/john.schurervonwald/source/repos/pizzeria_prg2/pizzeria_prg2/View/MainPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = pizzeria_prg2.View.MainPage.xaml
 build_metadata.AdditionalFiles.TargetPath = View\MainPage.xaml
 build_metadata.AdditionalFiles.RelativePath = View\MainPage.xaml
+
+[C:/Users/john.schurervonwald/source/repos/pizzeria_prg2/pizzeria_prg2/View/Menu.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = pizzeria_prg2.View.Menu.xaml
+build_metadata.AdditionalFiles.TargetPath = View\Menu.xaml
+build_metadata.AdditionalFiles.RelativePath = View\Menu.xaml
+
+[C:/Users/john.schurervonwald/source/repos/pizzeria_prg2/pizzeria_prg2/View/Order.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = pizzeria_prg2.View.Order.xaml
+build_metadata.AdditionalFiles.TargetPath = View\Order.xaml
+build_metadata.AdditionalFiles.RelativePath = View\Order.xaml

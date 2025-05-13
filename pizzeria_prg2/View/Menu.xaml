@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="pizzeria_prg2.View.Menu"
+             Title="Menu">
+    <ScrollView  >
+    <VerticalStackLayout Padding="10">
+
+        <!-- Title of the page -->
+        <Label 
+            Text="Menu"
+            HorizontalOptions="Center"
+            FontSize="24" 
+            FontAttributes="Bold"/>
+
+        <!-- CollectionView to display the list of pizzas or menu items -->
+        <CollectionView ItemsSource="{Binding Items}">
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <StackLayout Padding="10" Spacing="5">
+                        <!-- Pizza Name -->
+                        <Label Text="{Binding Name}" FontSize="18" FontAttributes="Bold"/>
+
+                        <!-- Pizza Category (if any) -->
+                        <Label Text="{Binding Category}" FontSize="14" TextColor="Gray"/>
+
+                        <!-- Pizza Price -->
+                        <Label Text="{Binding Price, StringFormat='Price: {0:C}'}" FontSize="14" TextColor="Green"/>
+
+                        <!-- Toppings as comma-separated list -->
+                        <Label Text="{Binding ToppingString}" FontSize="12" TextColor="DarkGray"/>
+                    </StackLayout>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+
+    </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

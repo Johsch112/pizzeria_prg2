@@ -1,52 +1,105 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1">
-  <Class Name="pizzeria_prg2.Pizza">
-    <Position X="2.5" Y="1.5" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>QAAAAAAAACAAAAAAAAAAgAAAAAAEAAAAAAQBAAAAAAA=</HashCode>
-      <FileName>Pizza.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="pizzeria_prg2.Kebabpizza">
-    <Position X="4.25" Y="5.25" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Kebabpizza.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="pizzeria_prg2.Pepperonipizza">
-    <Position X="2.5" Y="5.5" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Pepperonipizza.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="pizzeria_prg2.Vesuviopizza">
-    <Position X="0.75" Y="5.25" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Vesuviopizza.cs</FileName>
-    </TypeIdentifier>
-  </Class>
   <Class Name="pizzeria_prg2.Beverage">
-    <Position X="7.25" Y="1.5" Width="1.5" />
+    <Position X="10.5" Y="0.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Beverage.cs</FileName>
+      <FileName>Model\Beverage.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="pizzeria_prg2.Coladrink">
-    <Position X="6.25" Y="3" Width="1.5" />
+    <Position X="8.75" Y="0.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Coladrink.cs</FileName>
+      <FileName>Model\Coladrink.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="pizzeria_prg2.Fantadrink">
-    <Position X="8.25" Y="3" Width="1.5" />
+    <Position X="10.5" Y="1.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Fantadrink.cs</FileName>
+      <FileName>Model\Fantadrink.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="pizzeria_prg2.PizzaService">
+    <Position X="4.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ViewModel\PizzaService.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Pizza">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAAEAAAAAAACAAgAAAAACAAAAAgAAAAAA=</HashCode>
+      <FileName>Model\Pizza.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="pizzeria_prg2.PizzaDecorator">
+    <Position X="0.5" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAAEAAAAAAACAAAAAAAAAAAABAAAAAAAA=</HashCode>
+      <FileName>PizzaDecorator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="pizzeria_prg2.SausagePizza">
+    <Position X="2.75" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SausagePizza.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="pizzeria_prg2.MargheritaPizza">
+    <Position X="4.75" Y="3" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAAEAAAAAAACAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MargheritaPizza.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="pizzeria_prg2.PepperoniPizza">
+    <Position X="0.5" Y="5.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAAEAAAAAAACAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>PepperoniPizza.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="pizzeria_prg2.CalzonePizza">
+    <Position X="4.75" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CalzonePizza.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="pizzeria_prg2.Models.PizzaMenuItem">
+    <Position X="9.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAQAAAAAAAAAAAAQAAQAAAAAAAAAAAAAACAA=</HashCode>
+      <FileName>Menu.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="pizzeria_prg2.Vesuviopizza">
+    <Position X="2.75" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAAEAAAAAAACAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\Vesuviopizza.cs</FileName>
+      <NewMemberFileName>VesuvioPizza.cs</NewMemberFileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="pizzeria_prg2.PizzaBASE">
+    <Position X="2.75" Y="1" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>PizzaBASE.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Font Name="Segoe UI" Size="9" />

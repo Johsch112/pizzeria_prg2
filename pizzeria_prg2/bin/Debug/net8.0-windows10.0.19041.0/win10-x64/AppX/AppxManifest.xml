@@ -7,7 +7,7 @@
 
     For more information on package manifest files, see http://go.microsoft.com/fwlink/?LinkID=241727
   -->
-  <Identity Name="com.companyname.pizzeria_prg2" Publisher="CN=User Name" Version="1.0.0.1" ProcessorArchitecture="x64" />
+  <Identity Name="com.companyname.pizzeriaprg2" Publisher="CN=User Name" Version="1.0.0.1" ProcessorArchitecture="x64" />
   <mp:PhoneIdentity PhoneProductId="4852BE73-AFA1-40CE-8072-1C8D00F9ED84" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
   <Properties>
     <DisplayName>pizzeria_prg2</DisplayName>
@@ -20,7 +20,7 @@
     <PackageDependency Name="Microsoft.WindowsAppRuntime.1.5" MinVersion="5001.214.1843.0" Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US" />
   </Dependencies>
   <Resources>
-    <Resource Language="EN-US" />
+    <Resource Language="EN" />
   </Resources>
   <Applications>
     <Application Id="App" Executable="pizzeria_prg2.exe" EntryPoint="Windows.FullTrustApplication">
